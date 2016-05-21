@@ -1,0 +1,23 @@
+# R
+.RData
+.RDS
+.RHistory
+.Rproj
+R/data
+R-christi/data
+R/plots
+
+# Node build artifacts
+node_modules
+npm-debug.log
+
+# Local development
+*.env
+*.dev
+*.pem
+.DS_Store
+
+# Docker
+Dockerfile
+docker-compose.yml
+.Rproj.user
