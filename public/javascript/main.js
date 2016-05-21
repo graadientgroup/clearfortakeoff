@@ -1,3 +1,10 @@
+var username;
+
+var apiKey;
+
+//test in console.log 
+
+
 $(function() {
 
   var showView = function (page) {
