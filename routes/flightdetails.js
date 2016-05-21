@@ -10,9 +10,7 @@ var fxml_url = "http://flightxml.flightaware.com/json/FlightXML2/";
 
 //flightaware is not free data
 // so we've removed our API keys
-// you can sign up here: http://flightaware.com/commercial/flightxml/ 
-var username = "***";
-var apiKey = '***';
+// you can sign up here: http://flightaware.com/commercial/flightxml/
 
 function findClosestFlight(time, flightArray) {
 	// filter on actualdeparturetime = 0

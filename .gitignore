@@ -6,6 +6,7 @@
 R/data
 R-christi/data
 R/plots
+.Rproj.user
 
 # Node build artifacts
 node_modules
@@ -17,7 +18,9 @@ npm-debug.log
 *.pem
 .DS_Store
 
+# api info
+config.js
+
 # Docker
 Dockerfile
 docker-compose.yml
-.Rproj.user
