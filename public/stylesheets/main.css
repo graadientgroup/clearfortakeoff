@@ -1,0 +1,61 @@
+body {
+    padding-top: 50px;
+    background: #333333;
+}
+
+.background {
+  width: 800px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 4px;
+}
+
+.content{
+  width: 300px;
+  height: 300px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+
+  text-align: center;
+}
+
+.contents {
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  background-color: #e0f7fa;
+  border-radius: 50%;
+}
+
+.input {
+  padding-top: 70px;
+}
+
+.loading {
+  padding-top: 130px;
+}
+
+.note{
+  color: #9e9e9e;
+  position: absolute;
+  font-size: 0.8rem;
+  cursor: text;
+}
+
+#result {
+  font-size: 20px;
+}
+
+#flightNumberInput {
+  text-align: center;
+  left: 0;
+}
+
+#mylabel {
+  left: 0;
+}
